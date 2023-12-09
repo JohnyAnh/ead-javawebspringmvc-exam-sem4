@@ -51,17 +51,17 @@
             <th>DOS</th>
         </tr>
         </thead>
-<%--        <tbody>--%>
-<%--        <c:forEach var="sale" items="${sales}" varStatus="loop">--%>
-<%--            <tr>--%>
-<%--                <td>${loop.index + 1}</td>--%>
-<%--                <td>${sale.SiNo}</td>--%>
-<%--                <td>${sale.SalesmanID}</td>--%>
-<%--                <td>${sale.SalesmanName}</td>--%>
-<%--                <td>${sale.DOS}</td>--%>
-<%--            </tr>--%>
-<%--        </c:forEach>--%>
-<%--        </tbody>--%>
+        <tbody>
+        <c:forEach var="sale" items="${sales}" varStatus="loop">
+            <tr>
+                <td>${loop.index + 1}</td>
+                <td>${sale.SiNo}</td>
+                <td>${sale.SalesmanID}</td>
+                <td>${sale.SalesmanName}</td>
+                <td>${sale.DOS}</td>
+            </tr>
+        </c:forEach>
+        </tbody>
     </table>
 
 </div>
